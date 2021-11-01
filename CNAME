@@ -1,0 +1,3 @@
+www.tylerteacher.com.		IN	A
+www.tylerteacher.com.	477	IN	CNAME	ghs.googlehosted.com.
+ghs.googlehosted.com.	209	IN	A	142.251.34.147
