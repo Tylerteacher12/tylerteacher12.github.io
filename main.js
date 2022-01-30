@@ -26,15 +26,15 @@ new Swiper('.swiper-container', {
         },
         // 888px
         '@1.00' : {
-            slidesPerView : 2
+            slidesPerView : 1
         },
         // 1110px
         '@1.25' : {
-            slidesPerView : 3
+            slidesPerView : 2
         },
         // 1330px
         '@1.50' : {
-            slidesPerView: 4
+            slidesPerView: 3
         }
     }
 })
