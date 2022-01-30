@@ -22,19 +22,19 @@ new Swiper('.swiper-container', {
     // responsive brakpoints
     breakpoints : {
         '@0' : {
-            slidesPerView : 2
+            slidesPerView : 1
         },
         // 888px
         '@1.00' : {
-            slidesPerView : 3
+            slidesPerView : 2
         },
         // 1110px
         '@1.25' : {
-            slidesPerView : 4
+            slidesPerView : 3
         },
         // 1330px
         '@1.50' : {
-            slidesPerView: 5
+            slidesPerView: 4
         }
     }
 })
