@@ -15,7 +15,7 @@ new Masonry("#posts .grid", {
 new Swiper('.swiper-container', {
     direction : 'horizontal',
     loop : true,
-    slidesPerView : 5,
+    slidesPerView : 9,
     autoplay : {
         delay : 3000
     },
