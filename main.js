@@ -19,10 +19,11 @@ new Swiper('.swiper-container', {
     autoplay : {
         delay : 3000
     },
-    // responsive brakpoints
+    // responsive breakpoints
     breakpoints : {
         '@0' : {
             slidesPerView : 1
+
         },
         // 888px
         '@1.00' : {
