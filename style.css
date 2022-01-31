@@ -420,7 +420,7 @@ a{
     .col-3{
         flex: 0 0 100%;
         max-width: calc(100% - 50px);
-        padding-top: 40px 50px;
+        padding-top: 40px;
     }
 }
 
