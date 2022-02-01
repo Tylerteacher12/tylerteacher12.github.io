@@ -100,6 +100,7 @@ a{
     height: 80px;
     width: 80px;
     object-fit: fill;
+    justify-content: space-between;
 }
 
 .d-flex{
@@ -237,11 +238,12 @@ a{
 /* ----------- Main Section ---------- */
 
 #site-main{
-    margin-top: 8em;
+    margin-top: 4em;
 }
 
 #posts{
     margin-bottom: 5em;
+    
 }
 
 .grid{
@@ -251,6 +253,7 @@ a{
 .grid .grid-item{
     width: calc(33.3333% - 20px);
     margin-bottom: 3em;
+    border-top: 1px solid #dfdfdf;
 }
 
 /* ----------- .Main Section ---------- */
@@ -415,6 +418,7 @@ a{
 @media (max-width : 768px){
     .grid .grid-item{
         width: calc(50% - 20px);
+        border-top: 1px solid #dfdfdf;
     }
 
     .col-3{
@@ -450,6 +454,8 @@ a{
 
     .grid .grid-item{
         width: calc(100% - 20px);
+        border-top: 1px solid #dfdfdf;
+        
     }
 
     #site-main{
