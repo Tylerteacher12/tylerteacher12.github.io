@@ -17,25 +17,25 @@ new Swiper('.swiper-container', {
     loop : true,
     slidesPerView : 9,
     autoplay : {
-        delay : 3000
+        delay : 0
     },
     // responsive breakpoints
     breakpoints : {
         '@0' : {
-            slidesPerView : 1
+            slidesPerView : 2
 
         },
         // 888px
         '@1.00' : {
-            slidesPerView : 1
+            slidesPerView : 3
         },
         // 1110px
         '@1.25' : {
-            slidesPerView : 2
+            slidesPerView : 4
         },
         // 1330px
         '@1.50' : {
-            slidesPerView: 3
+            slidesPerView: 5
         }
     }
 })
