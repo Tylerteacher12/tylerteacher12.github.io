@@ -19,6 +19,7 @@ body{
 
 a{
     text-decoration: none;
+    
 }
 
 * > *{
@@ -286,6 +287,10 @@ a{
 
 /* ----------- article page ------- */
 
+.article {
+    justify-content: space-around;
+}
+
 #post{
     padding: 0 2em;
     margin-bottom: 4em;
@@ -417,12 +422,14 @@ a{
     #site-main{
         margin-top: 14em;
     }
+
 }
 
 @media (max-width : 768px){
     .grid .grid-item{
         width: calc(50% - 20px);
         border-top: 1px solid #dfdfdf;
+        
 
     }
 
@@ -465,6 +472,7 @@ a{
 
     #site-main{
         margin-top: 6em;
+        justify-content: space-around;
     }
 
 }
