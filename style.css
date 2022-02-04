@@ -248,6 +248,7 @@ a{
 
 .grid{
     margin: 1 auto;
+    row-gap: 20px;
 }
 
 .grid .grid-item{
@@ -255,6 +256,8 @@ a{
     margin-bottom: 3em;
     border-top: 1px solid #dfdfdf;
 }
+
+
 
 /* ----------- .Main Section ---------- */
 
@@ -364,6 +367,7 @@ a{
 
 .row{
     display: flex;
+    
 }
 
 .col-3{
@@ -419,6 +423,7 @@ a{
     .grid .grid-item{
         width: calc(50% - 20px);
         border-top: 1px solid #dfdfdf;
+
     }
 
     .col-3{
