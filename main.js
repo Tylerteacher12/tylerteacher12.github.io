@@ -5,11 +5,15 @@ toggle.addEventListener('click' , function(){
     collapse.forEach(col => col.classList.toggle("collapse-toggle"));
 })
 
-// with masonry
-new Masonry("#posts .grid", {
-    itemSelector : '.grid-item',
-    gutter : 20
+
+window.addEventListener('load', function(){
+    new Masonry("#posts .grid", {
+        itemSelector : '.grid-item',
+        gutter : 20
+    });
+    // remove preload if added
 });
+
 
 // swiper libray initialization
 new Swiper('.swiper-container', {
